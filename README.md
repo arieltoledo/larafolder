@@ -4,7 +4,7 @@ larafolder its a small bash script to add the needed permissions to a laravel pr
 ### Installation
 
 ```sh
-$ wget 
+$ wget https://github.com/arieltoledo/larafolder.git
 ```
 Apply permission to execute:
 

@@ -40,10 +40,10 @@ else
 
 		echo -ne '##################\r'
 		sleep 1
-		sudo chgrp -R www-data storage bootstrap/cache
+		sudo chgrp -R www-data $path/bootstrap/cache
 		echo -ne '##################################\r'
 		sleep 1
-		sudo chmod -R ug+rwx storage bootstrap/cache
+		sudo chmod -R ug+rwx $path/storage
 		echo -ne '#######################################################\r'
 		echo -ne '\n'
 fi
